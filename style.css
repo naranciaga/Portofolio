@@ -41,6 +41,10 @@ section::before {
     font-size: 48px;
 }
 
+.home img {
+    width: 100%;
+}
+
 .home .arrow img {
     width: 60px;
 }
@@ -146,6 +150,21 @@ section::before {
 #work-3:hover::after {
     content: 'Web Developer';
 }
+
+@media only screen and (max-width:768px) {
+    .home img {
+        width: 50%;
+    }
+
+    section::before {
+        top: -10px;
+        left: 0;
+        font-size: 64px;
+    }
+}
+
+
+
 
 @keyframes upDown {
     0% {

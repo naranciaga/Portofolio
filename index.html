@@ -20,28 +20,28 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#">Work</a>
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#work">Work</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </div>
       </div>
     </div>
   </nav>
   <section id="home" class="home container">
-    <div class="row d-flex align-items-center">
-      <div class="col-8">
+    <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+      <div class="col-12 col-md-8 mt-md-0 mt-3">
         <h3 class="fw-semibold">Hi! I am</h3>
         <h1 class="fw-bold">Narancia</h1>
         <p>I am begineer Software Engineer based in Indonesia</p>
         <a class="btn button" href="images/potrait.png" download>Resume</a>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
         <img src="images/potrait.png" alt="potrait">
       </div>
     </div>
-    <div class="arrow d-flex align-items-center flex-column mt-5">
-      <a href="#about" class="text-decoration-none text-dark">More Info</a>
+    <a href="#about" class="text-decoration-none text-dark arrow d-flex align-items-center flex-column mt-5">
+      <div>More Info</div>
       <img id="arrow" class="mt-2" src="images/arrow.svg" alt="Arrow Icon">
     </div>
   </section>
@@ -94,13 +94,13 @@
   </section>
   <section id="work" class="work container">
     <div class="row d-flex align-items-center gap-5">
-      <div class="col">
+      <div class="col-12 col-md-5">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, voluptatum! Cupiditate provident dicta
           quod sit eos voluptatibus commodi maxime, ipsam molestias beatae nam pariatur illum nostrum consequatur
           officiis. Similique voluptatem sunt deleniti corporis eaque harum animi, dicta, inventore obcaecati pariatur
           expedita hic delectus ad iure, eum illum quisquam fugit deserunt?</p>
       </div>
-      <div class="col work-img">
+      <div class="col-12 col-md-6 work-img">
         <div id="work-1" class="work-img-item">
           <img src="images/work-1.png" alt="work 1">
         </div>
@@ -115,24 +115,24 @@
   </section>
   <section id="contact" class="contact container">
     <div class="row d-flex align-items-center gap-5">
-      <div class="col">
+      <div class="col-12 col-lg-6">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dignissimos assumenda, maxime architecto explicabo veniam? Beatae suscipit eligendi quis asperiores voluptatibus ad in culpa repudiandae, deleniti alias quo doloremque temporibus eius dolores totam, ratione quae corporis. Nisi iusto ipsam a? Nesciunt, suscipit veniam itaque voluptate iure odio doloribus vel blanditiis!</p>
         <div class="row">
-          <div class="col d-flex align-items-center">
-            <img src="images/Facebook.svg" alt="Facebook">
-            <p>Muhammad Ali Akbar</p>
+          <div class="col d-flex align-items-center justify-content-center">
+            <img class="w-25" src="images/Facebook.svg" alt="Facebook">
+            <p class="mt-0 ms-2">Muhammad Ali Akbar</p>
           </div>
-          <div class="col d-flex align-items-center">
-            <img src="images/Instagram.svg" alt="Instagram">
-            <p>@narancia.dev</p>
+          <div class="col d-flex align-items-center justify-content-center">
+            <img class="w-25" src="images/Instagram.svg" alt="Instagram">
+            <p class="mt-0 ms-2">@narancia.dev</p>
           </div>
-          <div class="col d-flex align-items-center">
-            <img src="images/Twitter.svg" alt="Twitter">
-            <p>@narancia.dev</p>
+          <div class="col d-flex align-items-center justify-content-center">
+            <img class="w-25" src="images/Twitter.svg" alt="Twitter">
+            <p class="mt-0 ms-2">@narancia.dev</p>
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-lg-5">
         <form class="contact-form" onsubmit="onFormSubmit(event)">
           <div class="mb-3">
             <label for="inp_email" class="form-label">Email address</label>
